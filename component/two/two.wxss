@@ -1,0 +1,10 @@
+.two-box{
+    width: 500rpx;
+    height: 500rpx;
+    background: #ccc;
+    border: 2rpx solid #000;
+    display: none;
+}
+.two-box.active{
+    display: block;
+}

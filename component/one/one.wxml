@@ -1,0 +1,4 @@
+<!--组件一-->
+<view>
+    <button class="{{item===1?'active':''}}" wx:for="{{btns}}" wx:key="item" data-index="{{index}}" bindtap="clickBtn">按钮{{index+1}}</button>
+</view>

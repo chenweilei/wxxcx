@@ -1,0 +1,15 @@
+button{
+    display: inline-block;
+    width: 180rpx;
+    height: 60rpx;
+    vertical-align: top;
+    color: #fff;
+    font-size: 30rpx;
+    line-height: 60rpx;
+    text-align: center;
+    color: #000
+}
+button.active{
+    background: red;
+    color: #fff;
+}

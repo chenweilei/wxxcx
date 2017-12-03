@@ -1,0 +1,14 @@
+.msg{
+    width: 400rpx;
+    height: 60rpx;
+    border: 1px solid #000;
+    display: inline-block;
+}
+.submit{
+    display: inline-block;
+    width: 160rpx;
+    height: 60rpx;
+    text-align: center;
+    line-height: 60rpx;
+    font-size: 30rpx;
+}

@@ -1,0 +1,5 @@
+<!--组件二-->
+<view>
+    <view class="two-box {{item===1?'active':''}}"  wx:for="{{conts}}" wx:key="{{item}}">{{index}}</view>
+</view>
+
