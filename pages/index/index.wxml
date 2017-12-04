@@ -7,9 +7,15 @@
 <!-- 留言板 -->
 <view>
     <input class="msg" bindinput="onchange" type="text" value="{{curMsg}}" placeholder="请输入留言"></input>
-    <button class="submit" bindtap="addMsg">发表</button>
+    <button class="submit" bind:tap="addMsg">发表</button>
     <view>
-        <view wx:for="{{msg}}" wx:key="index"><text>{{item}}</text></view>
+        <view wx:for="{{msg}}" wx:key="index"><text>{{item}}</text><button data-index="{{index}}" bind:tap="deletMsg">删除</button><button data-index="{{index}}" bind:tap="editMsg">修改</button></view>
     </view>
 </view>
 
+<view class="alert-bg {{alertShow?'active':''}}">
+	<view class="alert-edit">
+		<input type="text" bindinput="editOnInput" value="{{curMsgDesc.txt}}"></input>
+		<button dada-index="{{curMsgDesc.index}}" bind:tap="enterEdit">确认修改</button>
+	</view>
+</view>
