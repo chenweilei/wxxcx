@@ -5,8 +5,25 @@
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarBackgroundColor": "#f3f3f3",
+    "navigationBarTitleText": "小程序测试和学习",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color": "#000000",
+    "selectedColor": "#ff0000",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "#cccccc",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志页"
+      }
+    ]
   }
 }
